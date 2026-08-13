@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Delirio Café — Café de especialidad en Lavapiés",description:"Café de especialidad, pastelería artesanal y desayunos en la calle Tribulete, Lavapiés."};export default function Layout({children}:{children:React.ReactNode}){return <html lang="es"><body>{children}</body></html>}
